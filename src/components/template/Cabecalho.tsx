@@ -1,5 +1,5 @@
-import Logo from "./Logo";
-import MenuUsuario from "./MenuUsuario";
+import Logo from './Logo';
+import MenuUsuario from './MenuUsuario';
 
 export interface CabecalhoProps {
   className?: string;
@@ -8,12 +8,14 @@ export interface CabecalhoProps {
 export default function Cabecalho(props: CabecalhoProps) {
   return (
     <header
-      className={`flex items-center justify-between px-7 border-b border-zinc-700 ${
-        props.className ?? ""
+      className={`flex items-center justify-between px-7 border-b border-zinc-100 ${
+        props.className ?? ''
       }`}
     >
-      <Logo />
-      <MenuUsuario />
+      <div className="h-full boxed flex justify-between items-center">
+        <Logo />
+        <MenuUsuario />
+      </div>
     </header>
   );
 }

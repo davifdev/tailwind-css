@@ -13,7 +13,7 @@ import {
   User,
   UserPlus,
   Users,
-} from "lucide-react";
+} from 'lucide-react';
 
 import {
   DropdownMenu,
@@ -28,13 +28,15 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from '@/components/ui/dropdown-menu';
 
 export default function MenuUsuario() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <div>Menu</div>
+        <div className="flex items-center justify-center w-11 h-11 bg-purple-500 rounded-full text-cyan-50 cursor-pointer">
+          <span className='text-sm font-bold '>US</span>
+        </div>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56">
         <DropdownMenuLabel>My Account</DropdownMenuLabel>

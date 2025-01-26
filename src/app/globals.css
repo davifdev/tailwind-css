@@ -4,7 +4,7 @@
 
 @layer utilities {
   .boxed {
-    @apply mx-auto max-w-7xl w-full;
+    @apply mx-auto max-w-7xl w-full px-4 border-l border-r border-zinc-100;
   }
 }
 
