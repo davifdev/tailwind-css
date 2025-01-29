@@ -13,7 +13,7 @@ export default function Cabecalho(props: CabecalhoProps) {
       }`}
     >
       <div className="h-full boxed flex justify-between items-center">
-        <Logo />
+        <Logo href='/'/>
         <MenuUsuario />
       </div>
     </header>

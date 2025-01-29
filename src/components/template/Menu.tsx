@@ -8,10 +8,10 @@ export interface MenuProps {
 export function Menu(props: MenuProps) {
   return (
     <aside className={`pl-4 ${props.className ?? ''}`}>
-      <nav className='flex flex-col gap-4'>
+      <nav className="flex flex-col gap-4">
         <MenuGrupo label="Box Model">
-          <MenuItem label="Padding" href="/padding" />
-          <MenuItem label="Margin" href="/margin" />
+          <MenuItem label="Padding" href="/box-model/padding" />
+          <MenuItem label="Margin" href="/box-model/margin" />
           <MenuItem label="Border" href="/border" />
         </MenuGrupo>
         <MenuGrupo label="Display">
@@ -23,6 +23,7 @@ export function Menu(props: MenuProps) {
           <MenuItem label="Flex Item" href="/flex-item" />
           <MenuItem label="Flex Container" href="/flex-container" />
           <MenuItem label="Flex Direction" href="/flex-direction" />
+          <MenuItem label="Exemplo de Card" href="/flex/card" />
         </MenuGrupo>
         <MenuGrupo label="Grid">
           <MenuItem label="Grid Container" href="/grid-container" />
