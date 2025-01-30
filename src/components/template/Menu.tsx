@@ -12,7 +12,7 @@ export function Menu(props: MenuProps) {
         <MenuGrupo label="Box Model">
           <MenuItem label="Padding" href="/box-model/padding" />
           <MenuItem label="Margin" href="/box-model/margin" />
-          <MenuItem label="Border" href="/border" />
+          <MenuItem label="Border" href="/box-model/border" />
         </MenuGrupo>
         <MenuGrupo label="Display">
           <MenuItem label="Flex" href="/flex" />
