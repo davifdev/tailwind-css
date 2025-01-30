@@ -15,8 +15,10 @@ export function Menu(props: MenuProps) {
           <MenuItem label="Border" href="/box-model/border" />
         </MenuGrupo>
         <MenuGrupo label="Display">
-          <MenuItem label="Flex" href="/flex" />
+          <MenuItem label="Flex" href="/display/flex" />
           <MenuItem label="Grid" href="/grid" />
+          <MenuItem label="Inline" href="/inline" />
+          <MenuItem label="Inline-Block" href="/inline-block" />
           <MenuItem label="Block" href="/block" />
         </MenuGrupo>
         <MenuGrupo label="Flexbox">
