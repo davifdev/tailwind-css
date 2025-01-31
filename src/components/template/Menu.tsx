@@ -16,10 +16,10 @@ export function Menu(props: MenuProps) {
         </MenuGrupo>
         <MenuGrupo label="Display">
           <MenuItem label="Flex" href="/display/flex" />
-          <MenuItem label="Grid" href="/grid" />
-          <MenuItem label="Inline" href="/inline" />
-          <MenuItem label="Inline-Block" href="/inline-block" />
-          <MenuItem label="Block" href="/block" />
+          <MenuItem label="Grid" href="/display/grid" />
+          <MenuItem label="Inline" href="/display/inline" />
+          <MenuItem label="Inline-Block" href="/display/inline-block" />
+          <MenuItem label="Block" href="/display/block" />
         </MenuGrupo>
         <MenuGrupo label="Flexbox">
           <MenuItem label="Flex Item" href="/flex-item" />
