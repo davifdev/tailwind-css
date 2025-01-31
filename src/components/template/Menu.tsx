@@ -30,12 +30,15 @@ export function Menu(props: MenuProps) {
         <MenuGrupo label="Grid">
           <MenuItem label="Grid Container" href="/grid/grid-container" />
           <MenuItem label="Grid Item" href="/grid/grid-item" />
-          <MenuItem label="Grid Template Columns" href="/grid/grid-template-columns" />
+          <MenuItem
+            label="Grid Template Columns"
+            href="/grid/grid-template-columns"
+          />
         </MenuGrupo>
         <MenuGrupo label="Responsividade">
-          <MenuItem label="Breakpoints" href="/breakpoints" />
-          <MenuItem label="Media Query" href="/media-query" />
-          <MenuItem label="Mobile First" href="/mobile-first" />
+          <MenuItem label="Breakpoints" href="/responsivity/breakpoints" />
+          <MenuItem label="Media Query" href="/responsivity/media-query" />
+          <MenuItem label="Mobile First" href="/responsivity/mobile-first" />
         </MenuGrupo>
       </nav>
     </aside>
