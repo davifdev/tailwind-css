@@ -22,15 +22,15 @@ export function Menu(props: MenuProps) {
           <MenuItem label="Block" href="/display/block" />
         </MenuGrupo>
         <MenuGrupo label="Flexbox">
-          <MenuItem label="Flex Item" href="/flex-item" />
-          <MenuItem label="Flex Container" href="/flex-container" />
-          <MenuItem label="Flex Direction" href="/flex-direction" />
+          <MenuItem label="Flex Item" href="/flex/flex-item" />
+          <MenuItem label="Flex Container" href="/flex/flex-container" />
+          <MenuItem label="Flex Direction" href="/flex/flex-direction" />
           <MenuItem label="Exemplo de Card" href="/flex/card" />
         </MenuGrupo>
         <MenuGrupo label="Grid">
-          <MenuItem label="Grid Container" href="/grid-container" />
-          <MenuItem label="Grid Item" href="/grid-item" />
-          <MenuItem label="Grid Template Columns" href="/grid-item" />
+          <MenuItem label="Grid Container" href="/grid/grid-container" />
+          <MenuItem label="Grid Item" href="/grid/grid-item" />
+          <MenuItem label="Grid Template Columns" href="/grid/grid-template-columns" />
         </MenuGrupo>
         <MenuGrupo label="Responsividade">
           <MenuItem label="Breakpoints" href="/breakpoints" />
